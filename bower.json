@@ -1,0 +1,17 @@
+{
+  "name": "Polymer",
+  "description": "",
+  "main": "elements/contactList.html",
+  "license": "MIT",
+  "homepage": "http://github.com/Janet0110/contactList.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.8.0"
+  }
+}

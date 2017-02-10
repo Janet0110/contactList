@@ -1,0 +1,30 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="contact-listing">
+    <style>
+
+        .listing-wrapper{
+            border-bottom: solid 1px #666 ;
+        }
+        h3{
+            display:flex;
+        }
+
+    </style>
+    <template>
+        <div class="listing-wrapper">
+            <h3>{{name}}</h3>
+            <span>{{email}}</span>
+        </div>
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: "contact-listing",
+        properties:{
+            name: String,
+            email: String
+        }
+    });
+</script>
